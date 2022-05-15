@@ -11,7 +11,7 @@ namespace ProjetoUnimed.Models
         [Required]
         public string Nome { get; set; }
 
-        [Required, StringLength(maximumLength: 11, MinimumLength = 11)]
+        [Required]
         public string CPF { get; set; }
 
         [Required]
